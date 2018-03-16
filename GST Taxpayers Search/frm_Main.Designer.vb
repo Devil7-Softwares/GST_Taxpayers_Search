@@ -106,6 +106,7 @@ Partial Class frm_Main
         Me.gv_Items2Search.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.[False]
         Me.gv_Items2Search.OptionsBehavior.Editable = False
         Me.gv_Items2Search.OptionsSelection.MultiSelect = True
+        Me.gv_Items2Search.OptionsView.ShowGroupPanel = False
         '
         'PanelControl1
         '
@@ -189,6 +190,7 @@ Partial Class frm_Main
         Me.gv_TaxPayers.OptionsSelection.MultiSelect = True
         Me.gv_TaxPayers.OptionsView.BestFitMode = DevExpress.XtraGrid.Views.Grid.GridBestFitMode.Full
         Me.gv_TaxPayers.OptionsView.ColumnAutoWidth = False
+        Me.gv_TaxPayers.OptionsView.ShowGroupPanel = False
         '
         'GroupControl2
         '
